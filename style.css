@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar{
+    background-color: rgb(215, 211, 211);
+    width: 11%;
+    padding: 10px;
+    position: fixed;
+    height: 100%;
+    
+}
+.main{
+    padding: 1px;
+    background-color: white;
+    width: 89%;
+    margin-left: 200px;
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+    text-align: left;
+    font-size: 20px;
+    overflow: hidden;
+}
+.sidebar nav ul{
+    list-style: none;
+}
+.submenu{
+    display: none;
+}
+.sidebar ul li{
+    margin: 25px;
+}
+.sidebar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+    color: red;
+    transition: 0.4s;
+}
+.Intro{
+    text-align: center;
+}
+.heading1{
+    text-align: left;
+    font-size: 30px;
+}
+.intro_text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.edu{
+    width: 90%;
+    padding: 5px;
+}
+.edu thead{
+    background-color: rgba(150, 212, 212, 0.4);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.edu tbody{
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+#sub{
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+#rmimg{
+    text-align: center;
+}
+.sidebar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgb(215, 211, 211);
+    margin-top: 15px;
+    margin-left: -15px;
+    top: 80px;
+    left: 150px;
+}
+.sidebar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+.sidebar ul li:hover .submenu ul li{
+    width: 280px;
+    padding: 3px;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+    text-align: left;
+}
+.sidebar ul li:hover .sub_menu ul li:last-child{
+    border-bottom: none;
+}
+
+

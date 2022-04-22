@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Dash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#main">My Intro</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li>
+                        <a href="#Projects">Projects</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#resturent">1. Resturent Managment System</a></li>
+                                <li><a href="#traffic">2. Traffic Managment System</a></li>
+                                <li><a href="#hospital">3. Hospital Managment System</a></li>
+                                <li><a href="#quiz">4. Quiz App</a></li>
+                                <li><a href="#reader">5. Text Reading from image</a></li>
+                                <li><a href="#web">6. Web App</a></li>
+                            </ul>
+                        </div>   
+                    </li>
+                    <li><a href="#Experience">Experiance</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Certification</a></li>
+                    <li><a href="#">Achivements</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                    <li><a href="#">Contect</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main" id="main">
+            <h1 class="heading1">Introduction</h1>
+            <hr>
+            <section class="Intro">
+                <br>
+                <div class="intro_text">
+                    <p id="myimage"><img src="2020-09-06.jpg"></p><br>
+                    <p>Ujjwal Dash</p>
+                    <p>Bachlor of Technology|Information Technology</p>
+                    <p>Problem Solver|Firefighter|ML Enthuatics</p>
+                </div>
+            </section>
+            <section class="Education" id="Education">
+                <h1 class="heading1">Education</h1>
+                <hr>
+                <table class="edu">
+                    <thead>
+                        <tr>
+                            <td>Degree</td>
+                            <td>Subjects</td>
+                            <td>College</td>
+                            <td>Percentage</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="sub">Matrucalation</td>
+                            <td>
+                                Math<br>
+                                Science<br>
+                                Social Science<br>
+                                English<br>
+                                Hindi<br>
+                            </td>
+                            <td>Sant Nandalal Smriti Vidya Mandir</td>
+                            <td>78.8</td>
+                        </tr>
+                        <tr>
+                            <td id="sub">Intermediate</td>
+                            <td>
+                                Physics<br>
+                                Chemistry<br>
+                                Math<br>
+                                Computer Science<br>
+                                Enghlish<br>
+                                Physical Education<br>
+                            </td>
+                            <td>Sant Nandalal Smriti Vidya Mandir</td>
+                            <td>78.4</td>
+                        </tr>
+                        <tr>
+                            <td id="sub">Bachlor of Technology</td>
+                            <td>Information Technology</td>
+                            <td>Veer Surendra Sai University ofTechnology</td>
+                            <td>Contuning...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="Projects" id="Projects">
+                <h1 class="heading1">Projects</h1>
+                <hr>
+                <div class="resturent" id="resturent">
+                    <h2 class="sumhead">1. Resturent Managment System</h2>
+                    <hr>
+                    <p>
+                        Restaurant Management System project in python is a console application with the use of graphics. The project has fourteen types of food items which can be purchased by the customer and it can take inputs of the customer name,phone number,address,date of purchasing and total cost and save it to database whose on later can be searched by the search button and able to find the respective customer details.It also has display all the food items which are purchased by the customer and make a print a receipt or customer bill showing all food items purchased by the customer.This project is large, complete and I tried my best to make it error free.<br>
+                        It uses the concept of following python topics:<br>
+                        •	Tkinter:-It is a GUI (graphical interface) which allowed us to make the programming attractive.<br>
+                        •	Functions<br>
+                        •	If Else<br>
+                        •	Try Except<br>
+                        •	Tempfile:-It is a temporary file name.<br>
+                        •	Sqlite3:-For database connection.<br>
+                        •	Random:-To pick slip Number randomly<br>
+
+                    </p>
+                    <p>
+                        <h3>LIBRARY MODULES USEDAND THEIR PURPOSE</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Modules</td>
+                                    <td>Uses</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>from tkinter import *</td>
+                                    <td>For graphical interface</td>
+                                </tr>
+                                <tr>
+                                    <td>import random</td>
+                                    <td>for automisation of slip number</td>
+                                </tr>
+                                <tr>
+                                    <td>import time</td>
+                                    <td>for automisation of time</td>
+                                </tr>
+                                <tr>
+                                    <td>import datetime</td>
+                                    <td>for automisation of data</td>
+                                </tr>
+                                <tr>
+                                    <td>import sqlite3</td>
+                                    <td>for database connection</td>
+                                </tr>
+                                <tr>
+                                    <td>import tkinter.messagebox</td>
+                                    <td> for messagebox</td>
+                                </tr>
+                                <tr>
+                                    <td>import tempfile</td>
+                                    <td>for printing a receipt</td>
+                                </tr>
+                                <tr>
+                                    <td>import os</td>
+                                    <td>for system exit</td>
+                                </tr>
+
+                                
+                            </tbody>
+                        </table>
+                    </p>
+                    <h4>Outputs</h4>
+                    <div id="rmimg">
+                        <img src="image/rm1.png" width="80%">
+                        <p>This is the UI of my project</p>
+                        <img src="image/rm2.png" width="80%">
+                        <p>
+                            Know We entered details of customer and what he/she eat then click on <b>Total</b> button.<br>
+                            As we can see that it automatically calculate the price.
+                        </p> 
+                        <img src="image/rm3.png" width="80%">
+                        <p>
+                            As we clicked on <b>Recipt</b> button it generates a printiable receipt.
+                        </p>
+                        <img src="image/rm4.png" width="80%">
+                        <p>
+                            Enter any customer name and search detais of the customer using <b>Search</b> button.
+                        </p>
+                    </div>
+                    <h2><a href="#">Source Code</a></h2>
+                </div>
+                <div class="traffic" id="traffic">
+                    <h2 class="sumhead">2. Traffic Managment System</h2>
+                    <hr>
+                    <p>
+                        Traffic Management System project in python is a console application with the use of graphics. The project has fourteen types of food items which can be purchased by the customer and it can take inputs of the customer name,phone number,address,date of purchasing and total cost and save it to database whose on later can be searched by the search button and able to find the respective customer details.It also has display all the food items which are purchased by the customer and make a print a receipt or customer bill showing all food items purchased by the customer.This project is large, complete and I tried my best to make it error free.<br>
+                        It uses the concept of following python topics:<br>
+                        •	Tkinter:-It is a GUI (graphical interface) which allowed us to make the programming attractive.<br>
+                        •	Functions<br>
+                        •	If Else<br>
+                        •	Try Except<br>
+                        •	Tempfile:-It is a temporary file name.<br>
+                        •	Sqlite3:-For database connection.<br>
+                        •	Random:-To pick slip Number randomly<br>
+                    </p>
+                    <p>
+                        <h3>LIBRARY MODULES USEDAND THEIR PURPOSE</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Modules</td>
+                                    <td>Uses</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>from tkinter import *</td>
+                                    <td>For graphical interface</td>
+                                </tr>
+                                <tr>
+                                    <td>import random</td>
+                                    <td>for automisation of slip number</td>
+                                </tr>
+                                <tr>
+                                    <td>import time</td>
+                                    <td>for automisation of time</td>
+                                </tr>
+                                <tr>
+                                    <td>import datetime</td>
+                                    <td>for automisation of data</td>
+                                </tr>
+                                <tr>
+                                    <td>import sqlite3</td>
+                                    <td>for database connection</td>
+                                </tr>
+                                <tr>
+                                    <td>import tkinter.messagebox</td>
+                                    <td> for messagebox</td>
+                                </tr>
+                                <tr>
+                                    <td>import tempfile</td>
+                                    <td>for printing a receipt</td>
+                                </tr>
+                                <tr>
+                                    <td>import os</td>
+                                    <td>for system exit</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <h4>Outputs</h4>
+                    <div id="rmimg">
+                        <img src="image/tf1.png" width="80%">
+                        <p>This is the UI of my project</p>
+                        <img src="image/tf2.png" width="80%">
+                        <p>
+                            Know We entered details of customer and what he/she eat then click on <b>Total</b> button.<br>
+                            As we can see that it automatically calculate the price.
+                        </p> 
+                        <img src="image/tf3.png" width="80%">
+                        <p>
+                            As we clicked on <b>Recipt</b> button it generates a printiable receipt.
+                        </p>
+                        <img src="image/tf4.png" width="80%">
+                        <p>
+                            Enter any  name and search detais of the customer using <b>Search</b> button.
+                        </p>
+                    </div>
+                    <h2><a href="#">Source Code</a></h2>
+                </div>
+                <div class="hospital" id="hospital">
+                    <h2 class="sumhead">3. Hospital Managment System</h2>
+                    <hr>
+                    <p>
+                        Hospital Management System project in python is a console application with the use of graphics. The project has fourteen types of food items which can be purchased by the customer and it can take inputs of the customer name,phone number,address,date of purchasing and total cost and save it to database whose on later can be searched by the search button and able to find the respective customer details.It also has display all the food items which are purchased by the customer and make a print a receipt or customer bill showing all food items purchased by the customer.This project is large, complete and I tried my best to make it error free.<br>
+                        It uses the concept of following python topics:<br>
+                        •	Tkinter:-It is a GUI (graphical interface) which allowed us to make the programming attractive.<br>
+                        •	Functions<br>
+                        •	If Else<br>
+                        •	Try Except<br>
+                        •	Tempfile:-It is a temporary file name.<br>
+                        •	Sqlite3:-For database connection.<br>
+                        •	Random:-To pick slip Number randomly<br>
+                    </p>
+                    <p>
+                        <h3>LIBRARY MODULES USEDAND THEIR PURPOSE</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Modules</td>
+                                    <td>Uses</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>from tkinter import *</td>
+                                    <td>For graphical interface</td>
+                                </tr>
+                                <tr>
+                                    <td>import random</td>
+                                    <td>for automisation of slip number</td>
+                                </tr>
+                                <tr>
+                                    <td>import time</td>
+                                    <td>for automisation of time</td>
+                                </tr>
+                                <tr>
+                                    <td>import datetime</td>
+                                    <td>for automisation of data</td>
+                                </tr>
+                                <tr>
+                                    <td>import sqlite3</td>
+                                    <td>for database connection</td>
+                                </tr>
+                                <tr>
+                                    <td>import tkinter.messagebox</td>
+                                    <td> for messagebox</td>
+                                </tr>
+                                <tr>
+                                    <td>import tempfile</td>
+                                    <td>for printing a receipt</td>
+                                </tr>
+                                <tr>
+                                    <td>import os</td>
+                                    <td>for system exit</td>
+                                </tr>
+
+                                
+                            </tbody>
+                        </table>
+                    </p>
+                
+                    <h4>Outputs</h4>
+                    <div id="rmimg">
+                        <img src="image/hs1.png" width="80%">
+                        <p>This is the UI of my project</p>
+                        <img src="image/hs2.png" width="80%">
+                        <p>
+                            Know We entered details of customer and what he/she eat then click on <b>Total</b> button.<br>
+                            As we can see that it automatically calculate the price.
+                        </p> 
+                        <img src="image/hs3.png" width="80%">
+                        <p>
+                            Click on <b>Presciption</b> button to generate presciption.
+                        </p>
+                        <img src="image/hs4.png" width="80%">
+                        <p>
+                            As we clicked on <b>Presciption Data</b> button it generates a printiable Presciption.
+                        </p>
+                        <img src="image/hs5.png" width="80%">
+                        <p>
+                            Enter any Patient name and search detais of the Patient using <b>Search</b> button.
+                        </p>
+                    </div>
+                    <h2><a href="#">Source Code</a></h2>
+                </div>
+                <div class="quiz" id="quiz">
+                    <h2 class="sumhead">4. Quiz App</h2>
+                    <hr>
+                    <p>
+                        It is a quiz application. Basically their are two login <br>
+                        1.user login:- The user can only be allowed to give the quiz <br>
+                        2.Admin login:-The Admin have the asses of all the things such as adding questions,deleting questions,adding admins,and playing quiz the defult admin username and password is xyz and 1234 respectively.<br>
+                         All the data such as username passwords questions are save in quiz.db<br>
+                        <p>
+                            <b>what inside quiz.db?</b><br>
+                            Their are mainly 4 tables<br>
+                             1.adminSinghUp:-in this table all username and passwords of admins are saved. <br>
+                            2.quize:-in this all the question answer and options are saved. <br>
+                            3.user:-in this all the user datails are saved <br>
+                            4.userSignUp:- in this all user sign up information are saved<br>
+                        </p>
+                        <br>
+                        <p>
+                            <b>How it's work? </b><br>
+                            I had use Tkinter module of python to develop its whole gui. In this project i had use the sqlite3 database which is defult database in python basically all the qustions that are saved in the database are displayed in the screen randomly for this i had use random module of python. After few minutes the program will automatically close and score will be shown on your screen. For this i had use time module of python. quiz.py is the main file and rest are supportive file.
+                        </p> 
+                    </p>
+                    <h4>Outputs</h4>
+                    <div id="rmimg">
+                        
+                        <p>
+                            <ol>
+                                <li>
+                                    <img src="image/quiz1.png" width="60%">
+                                    <p>
+                                        This is the first look of the application.<br>
+                                        After we click on <b>Lets start quiz</b> button.<br>
+                                        Then below image is shown.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz2.png" width="60%">
+                                    <p>
+                                        This is the user sign up page.<br>
+                                        If you are new user then create account.<br>
+                                        Or else <b>Login</b><br>
+                                        When you click on <b>Login</b> Login page opens.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz3.png" width="60%">
+                                    <p>
+                                        This is the Login page Enter your Password and username.<br>
+                                        If Successfully Login then a <b>Welcome page is shown</b>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz4.png" width="60%">
+                                    <p>
+                                        This is the <b>Welcome page</b><br>
+                                        Select  the option.<br>
+                                        And Click on <b>Let's go</b> Button.<br>
+                                        Quiz Will start<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz5.png" width="60%">
+                                    <p>
+                                        This is the interface of quiz questions<br>
+                                        After The Quiz ends Marks is Shown.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz5.1.png" width="60%">
+                                    <p>
+                                        This is the interface for Marks Showing.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz6.png" width="60%">
+                                    <p>
+                                        This is the <b>Admin Login Page</b>.<br>
+                                        It will be shown when<b>Admin Login</b> button is clicked.<br>
+                                        After filling username and password i.e <b>xyz</b> and <b>1234</b>.<br>
+                                        You can see the Welcome Page.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz7.png" width="60%">
+                                    <p>
+                                        This is the Welcome Page.<br>
+                                        If you select <b>Click here to add questions</b>.<br>
+                                        You will be able to add questions in the add question page.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz8.png" width="60%">
+                                    <p>
+                                        This is the <b>Add page</b> in which you can add questions.<br>
+                                        If you select <b>Add new admin</b> in welcome page.<br>
+                                        Then <b>Admin SignUp Page</b> will be shown.<br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz9.png" width="60%">
+                                    <p>
+                                        This is the <b>Admin SignUp page</b>.<br>
+                                        We can enter new admins.<br>
+                                        If you Selected <b>Delete Questions</b>.<br>
+                                        Then <b>Delete Question page will open.</b><br>
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/quiz10.png" width="60%">
+                                    <p>
+                                        This is the <b>Delete Question Page</b>.<br>
+                                    </p>
+                                    
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                    <h2><a href="#">Source Code</a></h2>
+                </div>
+                <div class="reader" id="reader">
+                    <h2 class="sumhead">5. Text Reading from image</h2>
+                    <hr>
+                    <p>
+                        It is a Application Program to extract text from image useing python<br>
+
+                        Satup:-<br>
+                         1.You Need to install tesserect-ocr from github for your system.<br>
+                          2.Then you need to install the pytesserect,opencv and pyttsx3 liberary to your python IDE using <br>
+                          3.pytesserect:-pip install pytesserect <br>
+                          4.opencv:-:-pip install cv2<br> 
+                          5.pyttsx3:-pip install pyttsx3<br>
+
+                        <b>What that project is about?</b><br>
+                         Basically this project will have will extract text from the image and read it.<br>
+
+                        <b>Explination</b><br>
+                        This project uses the concept of <br>
+                        1.Tkinter <br>
+                        2.Pytesserect<br>
+                        3.opencv <br>
+                        4.pyttsx3<br>
+                        5.PIL<br>
+
+                        This Application is easy to use because it is based on User Interface Design. you just have to give the path of the image you want to extract text and its type. Now its all done.
+                    </p>
+                    <h2>Outputs</h2>
+                    <div id="rmimg">
+                        <p>
+                            <ol>
+                                <li>
+                                    <img src="image/tx1.png" width="80%">
+                                    <p>
+                                        This is the interface of the Application Program
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="image/tx2.png" width="80%">
+                                    <p>
+                                        Give the path of image you want to read.<br>
+                                        Then click on <b>Extract</b> button.<br>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                    <h2><a href="#">Source Code</a></h2>
+                </div>
+                <div class="web" id="web">
+                    <h2 class="sumhead">6. Web App</h2>
+                    <hr>
+                </div>
+            </section>
+            <section class="Experience" id="Experience">
+                <h1 class="heading1">Experience</h1>
+                <hr>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
