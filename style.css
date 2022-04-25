@@ -105,5 +105,10 @@ p{
 .sidebar ul li:hover .sub_menu ul li:last-child{
     border-bottom: none;
 }
-
+label{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border-radius: 20%;
+}
 
